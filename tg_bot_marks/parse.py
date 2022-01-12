@@ -6,8 +6,8 @@ def parse(bool):
     with sync_playwright() as p:
         login_ira = 'ПлискоИВ'
         login_lena = 'ПлискоЕВ'
-        pw_ira = '3130312'
-        pw_lena = '7221364'
+        pw_ira = ''
+        pw_lena = ''
         lg =''
         pw =''
         if(bool):
